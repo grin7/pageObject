@@ -1,0 +1,5 @@
+*.txt
+*.dll
+packages/
+UnitTestProject2/bin/Debug/
+UnitTestProject2/obj/
