@@ -69,6 +69,7 @@
     <Compile Include="Core\Page\Iua\CreateMailPage.cs" />
     <Compile Include="Core\Page\Mailinator\InboxPage.cs" />
     <Compile Include="Core\Page\Mailinator\LoginPage.cs" />
+    <Compile Include="Core\Page\Mailinator\MailPage.cs" />
     <Compile Include="Core\Step\IuaStep.cs" />
     <Compile Include="Core\Step\MailinatorStep.cs" />
     <Compile Include="Test\MailTest.cs" />

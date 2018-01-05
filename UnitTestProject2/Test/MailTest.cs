@@ -20,6 +20,8 @@ namespace UnitTestProject2
             iuaStep.SendNewMail(mail.Email, mail.Subject, mail.Text);
             mailinatorStep.Login(mail.Email);
             mailinatorStep.VerifyMail(user.Name, mail.Subject);
+            mailinatorStep.OpenMail();
+            mailinatorStep.VerifyMailBody(mail.Text);
         }
     }
 }

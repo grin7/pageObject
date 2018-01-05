@@ -11,7 +11,7 @@ namespace UnitTestProject2.Core.Step
         public void Login(string login, string password)
         {
             Action.OpenSite("http://www.i.ua/");
-            DiscardPopup();
+            //DiscardPopup();
             loginPage.LoginInput.SendKeys(login);
             loginPage.PasswordInput.SendKeys(password);
             loginPage.SubmitButton.Click();

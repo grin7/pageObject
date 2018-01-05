@@ -13,5 +13,10 @@ namespace UnitTestProject2.Core.Page.Mailinator
         {
             get { return DriverManager.GetDriver().FindElement(By.XPath("//div[@class='all_message-min']/div[4]")); }
         }
+
+        public IWebElement LastMail
+        {
+            get { return DriverManager.GetDriver().FindElement(By.XPath("//*[@id='inboxpane']/li[1]")); }
+        }
     }
 }
